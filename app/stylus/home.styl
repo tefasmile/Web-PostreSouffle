@@ -1,0 +1,593 @@
+@import "normalize.styl"
+@import "fonts.styl"
+@import "fontsgoogle.styl"
+
+titulo = #60747D
+azulito = #DAE8E8
+cielito = #2E96B4
+rosado = #D93ADD
+gris_oscuro = #333333
+gris_claro = #828282
+gris = #62767F
+grisesito = #878C8E
+white = #FFFFFF
+azul_aqua = #24ADCE
+header = #F6F1F1	
+
+a
+	text-decoration none
+body
+	font-family 'Nunito','Lato', 'icomoon',sans-serif
+	font-size 16px
+figure
+	margin 0
+
+p
+	margin 0
+
+footer
+	.redes
+		top -.5em
+		padding .5em
+		position relative
+		.action
+			font-size 1.6em
+			&.blue
+				color azul_aqua
+
+
+nav ul li span .icon-circle-down
+	color white
+	
+#button_send
+	border-radius 4px
+	background rosado
+	border 1px solid lime
+	padding .2em 1em
+	color white
+
+#button
+	border-radius 5px
+	border 1px solid #bbb
+	cursor pointer
+	background-color #68B4CA
+	padding 1em  1.5em
+	font-size 1.1em
+	color white
+	margin-top 1.8em
+
+#button_send:hover,
+button:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="button"]:focus
+	color white
+	border-color lime
+	background-color #68B4CA
+				
+.button-menu
+	color azul_aqua
+	font-size 1.9em
+	left .5em
+	margin-top -10px
+	position absolute
+	top 50%
+	display block
+
+.catalogo
+	margin-left 0
+
+.container
+	  text-align center
+	&.small
+		margin 0 auto
+		width 20em
+.conctato
+	color white
+	font-family Nunito
+	padding .5em	
+	position relative 
+	text-align left
+	text-transform uppercase
+	top 1.6em
+.conctatos
+	padding .5em		
+.container
+	text-align center
+	position relative
+	top 6.3em
+.center-block
+	margin 0px auto
+
+.footer
+	background-color cielito
+	font-family Raavi
+	height 34.8em
+	top 14.5em
+	position relative
+
+.font
+  	font-size 1.1em
+ 
+.fixed
+	position fixed
+
+.go-top
+	span
+		display none
+		
+.mensaje
+	font-family Nunito
+	position relative
+	text-transform uppercase
+	top 2.5em	
+
+.info
+	font-family Lato
+	color grisesito
+	text-align center
+	line-height 1.4em
+
+.image_prueba
+	margin 0
+
+.logo_mobil
+	padding-top 1.2em
+	width 142px
+	float right
+	
+.leyend
+	color gris
+	text-align justify
+	font-family Lato
+	top .1em
+
+.leyend_conctato
+	color white
+	font-family Raavi
+	margin-top .5em
+	padding .5em
+	text-align justify
+.left
+	float left
+.right
+	float right
+.relative
+	position relative
+.absolute
+	position absolute
+.white
+	color white
+.servicios_small
+	top 2.5em
+	position relative
+
+.servicios_large
+	display none
+
+.seguir
+	padding .5em
+
+.social_redes
+	top 1em
+	position relative
+
+.mensajeria
+	padding .5em
+	padding-top 1.5em
+	text-align left
+	top 1.5em
+	position relative
+	
+.Footer-form
+	display inline-block
+	width 96%
+	margin 0 auto
+
+.Footer-formInput
+.Footer-textarea
+	display block
+	background white
+	border-radius 5px
+	padding .3em
+	width 100%
+	margin-bottom .5em
+	border 1px solid #d1d1d1
+	resize none
+	
+.Footer-textarea
+    resize none
+    border-radius 5px
+
+input[type="text"],
+input[type="email"],
+textarea,
+select
+	border 1px solid #D1D1D1 
+    width 100%
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+textarea:focus,
+select:focus
+    border 1px solid #3AE981
+
+.marca
+	display inline-block
+	.scale
+		-webkit-filter grayscale(85%)
+		filter grayscale(85%)
+		&:hover
+			-webkit-filter brightness(100%)
+			filter brightness(100%)
+
+.marcas
+	top 4em
+	position relative
+
+.marca
+	display inline-block
+	&.scale
+		-webkit-filter grayscale(85%)
+		filter grayscale(85%)
+		&:hover
+			-webkit-filter brightness(100%)
+			filter brightness(100%)
+.mr
+	margin .5em
+
+.margin
+	margin-bottom .5em
+.marquillas
+	padding .7em
+
+.marquillas_deskt
+	display none
+
+.menu
+	display none
+
+.marquillas_deskt
+	display none 
+
+.nav-fixed
+	position fixed
+.tipo
+	background azulito 
+	color rosado
+	font-size 1.1em
+	padding .5em 0 0 .5em
+	text-align left
+	text-transform uppercase
+	width 17.8em
+	position relative
+	top -0.7em
+
+.text-left
+	text-align left
+.title
+	color titulo
+	text-transform uppercase
+	padding .5em
+.titulo_marca
+	text-transform uppercase
+	color rosado
+	font-family Nunito
+.tw
+	color cielito 
+.item
+	top .8em
+	padding 1.5em
+	overflow hidden
+.isotipo
+	display none
+
+.postresito
+	margin 0 0 1.2em 0
+.header
+	height 5.9em
+	background header
+	width 100%
+	position fixed
+	z-index 100
+	.button-menu
+		display block
+.wrap
+	width 1000px
+
+
+
+@media screen and (min-width:480px)
+	.container
+		&.medium
+			width auto
+	
+	.Footer-formInput
+	.Footer-textarea
+		display block
+		background white
+		border-radius 5px
+		padding .3em
+		width 100%
+		margin-bottom .5em
+		resize none
+	
+	.image
+		img
+			width 100%
+			height auto
+	
+	.menu
+		display block
+		
+	.msn
+		height 12em
+		width 45em
+	
+	.marquillas
+		display none
+		
+	
+	.marquillas_deskt
+		display block
+	
+	.servicios_large
+		display none
+	
+	.social_redes
+		top 2.8em
+		
+	.tipo
+		width auto
+
+@media screen and (min-width:490px)
+	.social_redes
+		top 2.9
+		position relative
+		
+	.menu
+		display none
+
+@media screen and (min-width:1000px)
+	
+	.container
+		&.large
+			width 1000px
+	
+	.caret
+		padding .5em
+		float right
+		top -.4em
+		position relative
+	
+	.catalogo
+		top 1.5em
+		position relative
+	.contenedor
+		width 1000px
+		margin-top 2.5em
+	.conctatos
+		font-family Lato
+		font-size 1.1em
+	
+	.deskt
+		font-size 1.1em 
+
+	.extra
+		width 1000px
+		margin 0 auto
+	
+	
+	.Footer-form
+		width 100%
+		margin 0 auto
+	
+	.Footer-formInput
+	.Footer-textarea
+		display block
+		background white
+		border-radius 5px
+		padding .3em
+		// width 100%
+		margin-bottom .5em
+		resize none
+	
+	.go-top
+		position fixed
+		bottom 1em
+		right 2em
+		text-decoration none
+		color rosado
+		background-color rgba(0, 0, 0, 0.3)
+		font-size 1.2em
+		padding .8em .9em
+		border-radius 100%
+		span
+			display block
+		
+	.go-top:hover
+		background-color rgba(0, 0, 0, 0.6)
+	
+	.isotipo
+		width 216px
+		display block
+	.title
+		font-size 1.3em
+		text-align left
+		left 1.1em
+		position relative
+	
+	.title_event
+		color titulo
+		font-size 1.3em
+		text-align left
+		left 1.1em
+		text-transform uppercase
+		position relative
+	.top
+		padding 4em 0 4.2em 0
+	
+	.twelve columns
+		width 100%
+		margin-left 0
+		width 1000px
+	.info
+		color grisesito
+		font-family Lato
+		font-size 1.2em
+		left 1.1em 
+		position relative
+		text-align left
+	.item_desktop
+		background red
+	.logo
+		padding 1.5em 0
+	
+	.leyend_conctato
+		font-size 1.1em
+		font-family Lato
+	.leyend
+		font-size 1.1em
+	.servicios_small
+		display none
+	.servicios_large
+		display block				
+	.menu
+		display inline-block
+		overflow hidden
+		float right
+		.item
+			float left
+			list-style none
+			position relative
+			a
+				color gris_claro 
+				cursor pointer
+				display block
+				padding .5em
+				border-top 5px solid transparent
+				text-transform uppercase
+				&:hover
+					border-bottom 6px solid azul_aqua
+					-webkit-transition all .2s ease
+	
+	.menu
+		ul
+			padding 0 
+			li:hover 
+				ul
+					display block
+	.list
+		top -1.5em
+		position relative
+							
+	// .padding
+	// 	padding 0 1.5em 0 0
+	
+	.products
+		display none
+		background azulito
+		left 0
+		top .7em
+		position relative	
+		li
+			border-bottom 1px solid white
+			left 0
+			list-style none
+			margin-bottom 0
+			text-align left
+			&:nth-child(3)
+				border-bottom none
+		a
+			&:hover
+				background-color rgba(56, 75, 40, 0.1)
+				border-top 5px solid transparent
+							 
+	.header
+		height 7em
+		width 100%
+		.button-menu
+		.logo_mobil
+			display none
+
+@media screen and (max-width:997px)
+	
+	ul
+		padding 0	
+
+	header
+		.menu
+			display block
+	
+	header 
+		nav
+			height calc(100% - 80px);
+			width 80%
+			position fixed
+			right 100%
+			margin 0
+			overflow scroll
+	
+	nav
+		background azul_aqua
+		top 17.2%
+
+	header nav ul li
+		display block
+		border-bottom 1px solid rgba(255,255,255,.5)
+		left 0
+	
+	header nav ul li a
+		display block
+		left 0
+		
+	header nav ul li:hover .products
+		display block
+	
+	header nav ul li .products
+		display none
+		background rosado
+		position absolute
+		width 100%
+		top 9.8em
+		left 0
+
+	header nav ul li .products li
+		display block
+		padding 1em
+		left 0
+
+	header nav ul li:hover
+		background: rgba(78, 209, 218, 0.5)
+	
+
+	header nav ul li a
+		color white
+		display block
+		text-decoration none
+	
+	.caret
+		float right
+		
+	.item
+		top .8em
+		padding 1.5em .9em
+		overflow hidden
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+
+
+	
+
+	

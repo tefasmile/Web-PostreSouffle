@@ -1,0 +1,16 @@
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE text/html
+
+<Files *.css>
+SetOutputFilter DEFLATE
+</Files>
+
+<Files *.js>
+SetOutputFilter DEFLATE
+</Files>
+
+ExpiresActive on
+ExpiresDefault "access plus 1 year"
+
+FileETag none

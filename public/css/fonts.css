@@ -1,0 +1,13 @@
+@font-face{font-family:icomoon;src:url(../fonts/icomoon.eot?-xymvm0);src:url(../fonts/icomoon.eot?-xymvm0)format('embedded-opentype');src:url(../fonts/icomoon.woff?-xymvm0)format('woff');src:url(../fonts/icomoon.ttf?-xymvm0)format('truetype');src:url(../fonts/icomoon.svg?-xymvm0#icomoon)format('svg');font-weight:400;font-style:normal}
+[class*=" icon-"],[class^=icon-]{font-family:icomoon;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-home3:before{content:"\e902"}
+.icon-phone:before{content:"\e942"}
+.icon-mobile:before{content:"\e958"}
+.icon-menu:before{content:"\e9bd"}
+.icon-arrow-up2:before{content:"\ea3a"}
+.icon-circle-down:before{content:"\ea43"}
+.icon-google-plus:before{content:"\ea88"}
+.icon-facebook:before{content:"\ea8c"}
+.icon-twitter:before{content:"\ea91"}
+.icon-linkedin2:before{content:"\eac9"}
+.icon-mail:before{content:"\e600"}
